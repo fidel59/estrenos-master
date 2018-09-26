@@ -1,0 +1,178 @@
+body{
+    margin: auto;
+}
+/* @media only screen and (min-width: 768px) { */
+
+#top{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid #dadada;
+    background-color: #fff;
+    z-index: 10000;
+}
+
+#top img{
+    width: 100%;
+    margin: auto;
+}
+
+h1 {
+    font-family: suecaslabheavy;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2;
+    color:black;
+    background-color: rgb(210, 211, 212);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    margin: 40px auto 25px;
+
+}
+
+.container {
+    max-width: 1250px;
+    width: 85%;
+    margin: 0px auto 30px;
+    /* box-shadow: 3px 3px 5px #999; */
+    
+}
+.card {
+    /*height: 350px;*/
+    background-color: rgb(0, 0, 0);
+    /* border-radius:15px; */
+    margin-bottom: 5px;
+    /* padding-bottom: 20px; */
+    box-shadow: 4px 4px 5px rgb(100, 97, 97);
+    padding-bottom: 20px;
+}
+
+.descripcion {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+img {
+    width: 100%;
+    /* border-top-left-radius: 15px;
+    border-top-right-radius: 15px; */
+}
+.hrfilete{
+    border: 5px solid rgb(49, 97, 160);
+    margin-top: -5px;
+  }
+.texto {
+    width: 80%;
+    color: white;
+    /*position: relative;
+    top: 5px;
+    left: 15%;*/
+    font-family: TheSans;
+    text-align: center;
+    margin: auto;
+}
+.texto h2{
+    font-family: suecaslabmedium;
+    font-size: 15px;
+    line-height: 30px;
+    padding-bottom: -10px;
+    padding-top: -10px;
+    margin: 1px auto;
+}
+.texto p {
+    font-family: suecanano;
+    font-size: 8px;
+    line-height: 24px;
+    line-height: 1.2; font-size: 0.8em;
+    margin: 0px auto 10px;
+}
+.puntaje{
+    z-index: 1000;
+    width: 80px;
+    /*position: absolute;
+    left: 30%; 
+    bottom: 162px;
+    top: 0px;*/
+    text-align: center;
+    margin: auto;
+}
+
+.estrellas{
+    /* margin: auto; */
+}
+
+.boton {
+    font-family: suecaslabbold;
+    font-size: 25px;
+    line-height: 35px;
+    text-align: center;
+    text-decoration: none; 
+    color: #fff;
+    width: 30px;
+    height: 30px;
+    padding: 0 8px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    /*padding-top: 0px;
+    background-color: white;
+    margin-top: 12px;*/
+    transition: .2s linear;
+}
+
+.boton:hover{
+    color: rgb(92, 153, 209);
+    background-color: #fff;
+}
+
+#botBladeMenos{
+    display: none;
+    padding: 0 11px;
+}
+
+#criticaBlade{
+    /*display: none;*/
+    font-family: suecaslabbold;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: white;
+    margin: 20px auto 10px;
+    height: 40px;
+    overflow: hidden;
+}
+#criticaBlade p{
+    text-align: left;
+}
+
+.modal {
+    border-radius: 0;
+    background-color: black;
+    color: white;   
+}
+.video {
+    width: 100%;
+}
+.blocker {
+    padding: 0;
+    background-color: black;
+
+} {}
+#blade-runner {
+    background-image: url("../img/Blade Runner1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+
+}
+
+.card {
+    height: 300px;
+    position: relative;
+    border-radius: 20px;
+}
+
+.descripcion {
+    position: absolute;
+    bottom: 20px;
+}

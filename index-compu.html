@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Estrenos de la semana</title>
+
+    <link rel="stylesheet" href="http://especiales.lanacion.com.ar/multimedia/proyectos/fonts/font.css">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+
+    <style>
+        img {
+            width: 100%;
+        }
+        .card {
+            position: relative;
+        }
+        .descripcion {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            text-align: left;
+            display: grid;
+            align-items: center;
+            justify-items: center;  
+            opacity: 0;
+            transition: all;
+            transition-duration: 1s;
+
+        }
+        .blue {
+            background-color: rgba(0, 0, 255, 0.5);
+        }
+        .lightblue {
+            background-color: rgba(0, 247, 255, 0.5);
+        }
+        .red {
+            background-color: rgba(255, 0, 0, 0.5);
+        }
+        .orange {
+            background-color: rgba(255, 166, 0, 0.5);
+        }
+        .green {
+            background-color: rgba(0, 255, 0, 0.5);
+        }
+        .yellow {
+            background-color: rgba(255, 255, 0, 0.5);
+        }
+        .card:hover .descripcion {
+            opacity: 1;
+            cursor: pointer;
+        }
+        .texto {
+            color: white;
+            width: 80%;
+        }
+
+        .container {
+            display: grid;
+            width: 1250px;
+            grid-template-rows: 1fr 1fr;
+            grid-gap: 20px;
+            margin: 30px auto;
+        }
+        .puntaje{
+            z-index: 1000;
+            width: 80px;
+            /*position: absolute;
+            left: 30%; 
+            bottom: 162px;
+            top: 0px;*/
+            text-align: left;
+            margin: auto;
+        }
+    </style>
+
+ 
+</head>
+
+<body>
+    <div id="top">
+         <img src="Site/Cabezal LN-Web.png">
+    </div>
+    <div class="container">
+        <div class="card">
+            <img src="Site/Acusada.jpg">
+            <div class="puntaje">
+                <img class="estrellas" src="img/5-estrellas.png" alt="">
+            </div>  
+            <div class="descripcion lightblue">
+                <div class="texto">
+                    <h2>ACUSADA</h2>
+                    <p>uno no deja de estar subyugado por la brutalidad y belleza extática de unas imágenes que</p>
+                </div>
+            </div>
+        </div>
+
+
+</body>
+
+</html>

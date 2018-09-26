@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LN | Estrenos de la semana</title>
+  
+  <link rel="stylesheet" href="http://especiales.lanacion.com.ar/multimedia/proyectos/fonts/font.css">
+  <!-- <link rel="stylesheet" href="css/bootstrap-reboot.css"> -->
+  <link rel="stylesheet" href="css/styles-home.css">
+
+  <script> 
+
+  function mas() {
+    var divCritica = document.getElementById('criticaBlade'); 
+    var boton = document.getElementById('botBlade'); 
+    var botonMenos = document.getElementById('botBladeMenos'); 
+
+    divCritica.addEventListener('click', function(e) { 
+      divCritica.style.height = "500px"; 
+      boton.style.display = "none";
+      botonMenos.style.display = "inline";
+    });
+
+  }
+  
+  </script>
+
+  <script> 
+
+  function menos() {
+    var divCritica = document.getElementById('criticaBlade');
+    var boton = document.getElementById('botBlade');
+    var botonMenos = document.getElementById('botBladeMenos'); 
+  
+    botonMenos.addEventListener("click", function(e){
+      botonMenos.style.display = "none";
+      boton.style.display = "inline";
+      divCritica.style.height = "350px";
+
+    });
+    
+  }
+
+  </script>
+  
+</head>
+
+<body>
+    <div id="top"><img src="img/top.jpg"></div>
+        <h1>Los 6 estrenos de la semana</h1>
+            <div class="container">
+                    <div class="card">
+                        <img src="img/Blade Runner1.jpg" alt="">
+                        <!-- <hr class="hrfilete" /> -->
+                            <div class="descripcion lightblue">
+                                <div class="texto">
+                                  <div class="puntaje">
+                                    <img class="estrellas" src="img/5-estrellas.png" alt="">
+                                  </div>
+                                  <h2>BLADE RUNNER</h2>
+                                  <p>uno no deja de estar subyugado por la brutalidad y belleza extática de unas imágenes que.</p>
+                                  <div id="criticaBlade">
+                                    <a id="botBlade" class="boton" onclick="mas()">+</a>
+                                    <a id="botBladeMenos" class="boton" onclick="menos()">-</a>
+                                  <!-- <h2 class="numero">+</h2> -->
+                                    <p>uno no deja de estar subyugado por la brutalidad y belleza estática de unas imágenes que uno no deja de estar subyugado por la brutalidad y belleza estática de unas imágen no deja de estar subyugado por la brutalidad y belleza estática de unas imágenes que uno no deja de estar subyugado por la brutalidad y belleza estática de unas imágen no deja de estar subyugado por la brutalidad y belleza estática de unas imágenes que uno no deja de estar subyugado por la brutalidad y belleza estática de unas imágenes que.</p>
+                                  </div>
+                                </div>
+                            </div>
+                    </div>
+                    
+            </div>
+        </div>
+    </div>
+    <div class="container">
+                <div class="card">
+                    <img src="img/La cabana1.jpg" alt="">
+                    <!-- <hr class="hrfilete" /> -->
+                        <div class="descripcion lightblue">
+                            <div class="texto">
+                              <div class="puntaje">
+                                <img class="estrellas" src="img/2-estrellas.png" alt="">
+                              </div>
+                              <h2>LA CABAÑA</h2>
+                              <p>uno no deja de estar subyugado por la brutalidad y belleza extática de unas imágenes que.</p>
+                              <a class="boton" href="estrenos">+</a>
+                              <!-- <h2 class="numero">+</h2> -->
+                            </div>
+                        </div>
+                </div>
+                
+        </div>
+    </div>
+</div>
+</body>
+
+
+
+</html>
